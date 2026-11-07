@@ -88,6 +88,10 @@ cargo build --release
 
 RustyLlama is an independent Rust reimplementation inspired by llama.cpp. It is not an official llama.cpp project and is not affiliated with its maintainers.
 
-## License
+## License and attribution
 
-No license has been selected yet. Until one is added, all rights remain with the respective copyright holders. Do not assume this repository grants permission to reuse its code.
+RustyLlama-authored code is licensed under the **MIT License**; see [LICENSE](LICENSE). This permits use, modification, redistribution, and commercial use subject to retaining the copyright and license notice.
+
+RustyLlama is an independent project and is not an official llama.cpp project or affiliated with its maintainers. The llama.cpp 0.9.0 source release is MIT-licensed by the ggml authors and is used as a compatibility and behavioral reference. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for upstream attribution and the license text. Any upstream code or third-party component incorporated in future releases must retain its applicable notices and license terms.
+
+The MIT license for RustyLlama does not grant rights to model weights, tokenizer assets, datasets, or other files converted by the program. Those materials remain subject to their own licenses and terms.
