@@ -2,6 +2,8 @@
 
 **An ambitious Rust reimplementation of [llama.cpp](https://github.com/ggml-org/llama.cpp).**
 
+# HEAVILY VIBECODED.
+
 RustyLlama aims to bring model loading, inference, tensor-format conversion, and quantization into a Rust-native project, with the long-term goal of exposing these capabilities through a single executable.
 
 > **Status: early development / experimental.** This is not yet a complete llama.cpp replacement. The status below separates existing work from unfinished functionality.
