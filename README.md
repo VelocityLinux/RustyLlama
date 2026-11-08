@@ -49,11 +49,11 @@ Recognition does not imply complete support for every checkpoint variant or tens
 The intended command interface includes:
 
 ```sh
-llama-rs inspect model.gguf
-llama-rs validate model.gguf
-llama-rs types
-llama-rs quantize input.gguf output.gguf Q4_0
-llama-rs convert-safetensors ./hf-model ./model.gguf
+./llama-rs inspect <model.gguf>
+./llama-rs validate <model.gguf>
+./llama-rs types
+./llama-rs quantize <input.gguf> <output.gguf> <qtype>
+./llama-rs convert-safetensors <hf-model> <model.gguf>
 ```
 
 These examples describe the intended interface; exact command availability may change as the project is integrated and tested.
